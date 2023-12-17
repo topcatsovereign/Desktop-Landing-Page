@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    
+}
+
+main{
+    margin-left:2%;
+    margin-right: 2%;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/*header starts here*/
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    padding-right: 50px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+
+    background-color: yellow;
+}
+
+header{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.heading{
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+header nav{
+    margin-right: 20%;
+}
+
+
+
+/*first section begins here */
+
+#first-section{
+    width:50%;
+    margin-bottom: 50px;
+}
+
+/*second section begins here */
+#second-section{
+    margin-bottom: 50px;
+}
+
+#second-section div{
+    display: inline;
+    padding: 15px;
+}
+
+/* third section begins here*/
+#third-section {
+    display: flex;
+}
+
+#third-section{
+    margin-bottom: 50px;
+}
+
+/*fourth section begins here */
+#fourth-section{
+    background-color: rgb(32, 31, 31);
+    margin-bottom: 50px;
+}
+
+#fourth-section{
+    display: flex;
+}
+
+#fourth-section{
+    margin-left: none;
+    margin-right: none;
+}
+
+#fourth-section article{
+    padding: 35px;
+}
+
+/*fifth section begins here */
+#fifth-section{
+    width: 50%;
+    margin-bottom: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#fifth-section div{
+    padding-bottom: 5px;
+}
+
+
+/*footer starts here */
+footer{
+    background-color: rgb(32, 31, 31);
+    display: flex;
+}
+
+footer h4{
+    padding-top: 10px;
+    margin-left: 8%;
+    margin-right: 65%;
+}
+
+footer div{
+    display: inline;
+    padding-right:10px;
+    padding-top: 10px;
+}
